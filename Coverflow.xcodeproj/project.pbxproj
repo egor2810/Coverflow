@@ -11,6 +11,7 @@
 		F7B1C9112BBB16370052CCCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1C9102BBB16370052CCCB /* ContentView.swift */; };
 		F7B1C9132BBB16380052CCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B1C9122BBB16380052CCCB /* Assets.xcassets */; };
 		F7B1C9162BBB16380052CCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B1C9152BBB16380052CCCB /* Preview Assets.xcassets */; };
+		F7B1C91E2BBB17B40052CCCB /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1C91D2BBB17B40052CCCB /* CoverFlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F7B1C9102BBB16370052CCCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7B1C9122BBB16380052CCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B1C9152BBB16380052CCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7B1C91D2BBB17B40052CCCB /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F7B1C90D2BBB16370052CCCB /* Coverflow */ = {
 			isa = PBXGroup;
 			children = (
+				F7B1C91C2BBB17980052CCCB /* Helpers */,
 				F7B1C90E2BBB16370052CCCB /* CoverflowApp.swift */,
 				F7B1C9102BBB16370052CCCB /* ContentView.swift */,
 				F7B1C9122BBB16380052CCCB /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F7B1C9152BBB16380052CCCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7B1C91C2BBB17980052CCCB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7B1C91D2BBB17B40052CCCB /* CoverFlowView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B1C91E2BBB17B40052CCCB /* CoverFlowView.swift in Sources */,
 				F7B1C9112BBB16370052CCCB /* ContentView.swift in Sources */,
 				F7B1C90F2BBB16370052CCCB /* CoverflowApp.swift in Sources */,
 			);
