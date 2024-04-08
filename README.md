@@ -2,4 +2,4 @@
 ## Screenshots
 
 ### Solar System App
-![o](https://github.com/AmirBayat0/Flutter_examples/assets/91388754/355bd5e3-e512-497f-9c0a-000998c1bbcf)
+![o]([https://github.com/egor2810/Coverflow/blob/main/Readme%20Assets/Simulator%20Screen%20Recording%20-%20iPhone%2015%20-%202024-04-08%20at%2018.31.02.mp4])
